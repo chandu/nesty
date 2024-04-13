@@ -1,0 +1,31 @@
+{
+  "name": "@nesty/consumer",
+  "version": "1.0.0",
+  "description": "Example NestJS API Library",
+  "scripts": {
+    "start": "nest start",
+    "start:dev": "nest start --watch",
+    "start:debug": "nest start --debug --watch",
+    "start:prod": "nest start --prod",
+    "lint": "eslint src/**/*.{ts,js}",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:cov": "jest --coverage",
+    "test:e2e": "jest --config ./test/jest-e2e.json"
+  },
+  "devDependencies": {
+    "@nestjs/cli": "^8.0.0",
+    "@nestjs/common": "^8.0.0",
+    "@nestjs/core": "^8.0.0",
+    "@nestjs/platform-express": "^8.0.0",
+    "jest": "^27.0.6",
+    "prettier": "^2.4.1",
+    "ts-jest": "^27.0.4",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.4.3"
+  },
+  "dependencies": {
+    "reflect-metadata": "^0.1.13",
+    "rxjs": "^7.5.0"
+  }
+}
